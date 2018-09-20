@@ -1,0 +1,75 @@
+* {
+/*styles in here affect everything!!!! */
+
+
+}
+body {
+  margin:0px;
+}
+
+
+header {
+
+}
+
+div#MainContent {
+  /* stles for #MainContent */
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:20px;
+}
+
+footer {
+  border-top-color: #cccccc;
+  border-top-width: 3px;
+  border-top-style: solid;
+
+  border: 1px solid green;
+}
+footer nav {
+  text-align:center;
+
+}
+footer nav a {
+  text-decoration: none;
+  padding-left:10px;
+  padding-right:10px;
+  margin-left:15px;
+  margin-right:15px;
+}
+
+footer div.socialMedia {
+  padding: 10px;
+  text-align:center;
+}
+.socialMedia a {
+  margin: 10px;
+  padding: 10px;
+  }
+  div {
+    text-align:right;
+
+  }
+  @media screen and (min-width: 800px) {
+    footer {
+      display:grid;
+      grid-column-gap: 10px;
+      grid-template-columns: 75% 25%;
+
+    }
+    section {
+    }
+    /***
+    section {
+      width:75%;
+      float:left;
+    }
+    aside {
+      width: 24%;
+      float:right;
+    }
+    footer {
+      clear:both;
+    }
+    ***/
+  }
